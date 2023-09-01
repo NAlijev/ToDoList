@@ -18,6 +18,7 @@ app.use(express.static("public"));
 
 mongoose.connect("mongodb+srv://admin-nizami:test123@cluster0.4yush.mongodb.net/todolistDB", {useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false});
 
+
 const itemsSchema = {
   name: String
 };
